@@ -43,7 +43,7 @@ const SpotifyGetPlaylists = () => {
 
     return (
         <>
-            <button onClick={handleGetPlaylists}>Get PlayLists</button>
+            <button onClick={handleGetPlaylists}>Get Top Ten  Today Hot List Track Names</button>
             {
             data?.items? data.items.map((item) => <p>{item.track.name}</p>) : null 
              }
