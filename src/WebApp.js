@@ -63,7 +63,7 @@ const WebApp = () => {
         <div>
             <button onClick={handleLogin}>Log In to Spotify</button>
             <SpotifyGetPlaylists/>
-            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?theme=1/tracks?offset=0&limit=10" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     )
 }
