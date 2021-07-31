@@ -7,7 +7,7 @@ import SpotifyGetPlaylists from './SpotifyGetPlaylists';
 
 const CLIENT_ID = '9163fda1371a4c00b3dbaad54936a786';
 const SPOTIFY_AUTHORIZE_ENDPOINT = 'https://accounts.spotify.com/authorize';
-const REDIRECT_URL = 'https://top-ten-spotify.vercel.app/';
+const REDIRECT_URL = 'https://spotify-react-rho.vercel.app/';
 const SPACE_DELIMITER = '%20';
 const SCOPES = ['user-read-currently-playing' , 'user-read-playback-state' ];
 const SCOPES_URL_PARAM = SCOPES.join(SPACE_DELIMITER);
